@@ -26,7 +26,6 @@ def color_fade_text(text, color):
   for i in range(len(text)):
         sys.stdout.write(color + text[i])
         sys.stdout.flush()
-    print('')
 
 def display_banner():
     banner = """
